@@ -1,0 +1,1 @@
+const solution = (a, b) => a.reduce((sum, v, i) => sum + v * b[i], 0);
